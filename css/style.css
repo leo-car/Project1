@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+body {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    text-align: center;
+    font-size: 30px;
+    font
+}
+
+button {
+    margin-top: 5vmin;
+    display: inline-block;
+    position: relative;
+    border-radius: 15%;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+  }
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(2, 25vmin);
+    grid-template-rows: repeat(2, 25vmin);
+    gap: 5vmin;
+    margin-top: 10vmin;
+
+}
+
+.square-1 {
+    background-color: red;
+    width: 25vmin;
+    height: 25vmin;
+    border-radius: 15%;
+}
+
+.square-2 {
+    background-color: blue;
+    width: 25vmin;
+    height: 25vmin;
+    border-radius: 15%;
+}
+
+.square-3 {
+    background-color: yellow;
+    width: 25vmin;
+    height: 25vmin;
+    border-radius: 15%;
+}
+
+.square-4 {
+    background-color: green;
+    width: 25vmin;
+    height: 25vmin;
+    border-radius: 15%;
+ 15%}
+
+input {
+    border-color: black;
+    border-radius: 15%;
+    text-align: center;
+    margin-top: 10vmin;
+}
+
+.score {
+    text-align: center;
+}
