@@ -11,7 +11,7 @@ Simon is a short-term memory skill game invented by Ralph H. Baer and Howard J. 
 -CSS
 -Javascript
 
-##
+## Getting Started
 -To start the game, click on the start button
 -Computer will flash buttons in a sequence
 -Afterwards, it would be the Player's turn to repeat the order by clicking on the buttons
